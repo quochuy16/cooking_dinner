@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tối nay ăn gì hả vợ?</title>
+  <meta name="description" content="Vợ chọn lần lượt món mặn, canh, rau, tráng miệng — chồng nhận thực đơn và danh sách đi chợ.">
+  <meta name="theme-color" content="#E8553A">
+  <meta property="og:title" content="Tối nay ăn gì hả vợ? 💕">
+  <meta property="og:description" content="Chọn món cho bữa cơm tối chỉ trong vài chạm.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍲</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="shell">
+    <main id="app" aria-live="polite"></main>
+  </div>
+
+  <nav class="tabbar" aria-label="Điều hướng">
+    <button class="tab" data-action="tab" data-tab="flow"><span>🍳</span>Chọn món</button>
+    <button class="tab" data-action="tab" data-tab="history"><span>📒</span>Nhật ký</button>
+  </nav>
+
+  <div id="toast" class="toast" role="status"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
